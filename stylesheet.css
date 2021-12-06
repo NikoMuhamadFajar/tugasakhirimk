@@ -14,7 +14,14 @@ body{
   background-size: cover;
   position: relative;
  }
- .header{
+ .header1{
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ }
+ .header2{
   min-height: 100vh;
   width: 100%;
   background-position: center;
@@ -24,8 +31,11 @@ body{
 .link:hover{
   background:blue;
 }
+.link:visited{
+  background: blue;
+}
 .link:active{
-  background: red;
+  background: whitesmoke;
 }
 nav{
   display: flex;
@@ -164,4 +174,18 @@ h1{
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
+}
+
+
+
+
+/*help us*/
+
+main{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 80px;
+  padding-top: 200px;
 }
