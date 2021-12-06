@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(https://assets2.rappler.com/2021/02/student-studying-home-online-shutterstock-ls-1612774327620-546.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ }
+nav{
+  display: flex;
+  padding: 2% 6%;
+  border-bottom: 1px solid #b1b1b1;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 200px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+}
+.top-wrapper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 80px;
+  padding-top: 200px;
+}
+.container{
+  flex-basis: 60%;
+  min-width: 300px
+}
+.container h1 {
+  color: #fff;
+  font-size: 35px;
+}
+.container p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 2;
+  margin: 10px 0 40px;
+}
+.hero-btn{
+  display: inline-black;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  border-radius: 15px;
+  background: transparant;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #271d85;
+  background: #271d85;
+  transition: 0.5s;
+}
+
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col{
+  flex-basis: 31%;
+  background: #e2f4fd;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.course-col h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course.col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+.popular-col{
+  flex-basis: 31%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.popular-col img{
+  width: 100%;
+  border-radius: 5px;
+}
+.popular-col h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.popular-col p{
+  padding: 0;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
