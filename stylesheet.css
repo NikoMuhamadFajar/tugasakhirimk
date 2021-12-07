@@ -226,9 +226,14 @@ h1{
 
 }
 .videooo{
-  text-align: center;
-  padding: 10px;
+  padding: 5px;
+  padding-left: 30%; 
+  padding-top: 20px; 
+}
+.videoo{
   width: 40%;
+  padding: 10px; 
+  padding-bottom: 50px; 
   padding-left: 30%; 
 }
 .fotooo{
