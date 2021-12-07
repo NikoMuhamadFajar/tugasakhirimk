@@ -1,4 +1,4 @@
-body{
+.bodyy{
   background-color: #9491be;
 }
 
@@ -191,7 +191,7 @@ h1{
   position: relative;
   top: 100px;
   border: 1px solid black;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   padding-top: 20px; 
 }
 .desk1{
@@ -199,15 +199,29 @@ h1{
   position: relative;
   color: #333333;
 }
-.desk2{
-  text-decoration: underline;
-}
 .co{
   color: black;
 }
 .co1{
   border-color: blue;
   position: relative;
-  top: 80px;
+  top: 40px;
 }
+.judulbwh{
+  position: relative;
+  top: 130px;
+  text-align: center;
+}
+.blogg{
+  position: relative;
+  top: 76px;
+  border: 1px solid black;
+  padding-bottom: 100px;
+  padding-top: 100px; 
+  width: 100%;
+  background-color: rgba(95, 158, 160, 0.857);
+  text-align: center;
+  font-family:'Times New Roman';
+  color: white;
 
+}
