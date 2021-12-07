@@ -181,11 +181,31 @@ h1{
 
 /*help us*/
 
-main{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: left;
-  padding-left: 80px;
-  padding-top: 200px;
+.judulhelp{
+  text-align: center;
+  padding-top: 100px;
+
+} 
+#desk{
+  text-align: left;
+  position: relative;
+  top: 100px;
+  border: 1px solid black;
+  padding-bottom: 80px;
+  padding-top: 20px; 
 }
+.desk1{
+  text-align: left;
+  position: relative;
+  color: #333333;
+}
+.desk2{
+  text-decoration: underline;
+}
+.co{
+  color: black;
+}
+.co1{
+  border-color: blue;
+}
+
