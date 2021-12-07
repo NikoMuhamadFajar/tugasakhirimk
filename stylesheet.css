@@ -207,5 +207,7 @@ h1{
 }
 .co1{
   border-color: blue;
+  position: relative;
+  top: 80px;
 }
 
