@@ -240,3 +240,66 @@ h1{
   width: 50%;
   padding-left: 400px;
 }
+#marg{
+  width: 100%;
+  height: 580px;
+  margin:auto;
+}
+.margg{
+  padding-top: 78px;
+  padding-left: 450px;
+}
+.marggg{
+  position: absolute;
+  top: 65px;
+  left: 40px;
+}
+.fontsty{
+  color: rgba(0, 0, 0, 0.672);
+  
+
+}
+.linkkk{
+ 
+  text-decoration: none;
+  color: white;
+  border: 1px solid blue;
+  padding: 15px 150px;
+  font-size: 13px;
+  border-radius: 15px;
+  background:blue;
+  cursor: pointer;
+  position: absolute;
+  top: 360px;
+  left: 60px;
+}
+.linkk{
+  text-decoration: none;
+  color: white;
+  border: 1px solid red;
+  padding: 15px 150px;
+  font-size: 13px;
+  border-radius: 15px;
+  background: red;
+  cursor: pointer;
+  position: absolute;
+  top: 470px;
+  left: 60px;
+}
+.linkk:hover{
+  border: 1px solid red;
+  background: transparent;
+  transition: 0.5s;
+}
+.linkkk:hover{
+  border: 1px solid #271d85;
+  background: transparent;
+  transition: 0.5s;
+}
+.linkkkk{
+  position: absolute;
+  top: 430px;
+  left: 225px;
+  color:black
+}
+  
