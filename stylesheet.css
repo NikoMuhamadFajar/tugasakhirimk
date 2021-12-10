@@ -1,5 +1,5 @@
 .bodyy{
-  background-color: #9491be;
+  background-color: #fff;
 }
 
 *{
@@ -9,7 +9,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(https://assets2.rappler.com/2021/02/student-studying-home-online-shutterstock-ls-1612774327620-546.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(https://i.ibb.co/bb34Cpr/download.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -29,10 +29,10 @@
   position: relative;
  }
 .link:hover{
-  background:blue;
+  background:rgb(47, 130, 133);
 }
 .link:visited{
-  background: blue;
+  background: rgb(47, 130, 133a);
 }
 .link:active{
   background: whitesmoke;
@@ -55,8 +55,6 @@ nav img{
 .nav-links{
   flex: 1;
   text-align: right;
-
-
 }
 .nav-links ul li{
   list-style: none;
@@ -76,11 +74,11 @@ nav img{
   flex-wrap: wrap;
   justify-content: left;
   padding-left: 80px;
-  padding-top: 200px;
+  padding-top: 300px;
 }
 .container{
   flex-basis: 60%;
-  min-width: 300px
+  min-width: 50%;
 }
 .container h1 {
   color: #fff;
@@ -91,6 +89,7 @@ nav img{
   font-size: 20px;
   line-height: 2;
   margin: 10px 0 40px;
+  width: 50%;
 }
 .hero-btn{
   display: inline-black;
@@ -99,16 +98,18 @@ nav img{
   border: 1px solid #fff;
   padding: 12px 34px;
   font-size: 13px;
-  border-radius: 15px;
+  border-radius: 100px;
   background: transparant;
   position: relative;
   cursor: pointer;
 }
 .hero-btn:hover{
-  border: 1px solid #271d85;
-  background: #271d85;
+  border: 1px solid rgb(47, 130, 133);
+  background: rgb(47, 130, 133);
   transition: 0.5s;
 }
+
+/*body*/
 
 .course{
   width: 80%;
@@ -117,8 +118,16 @@ nav img{
   padding-top: 100px;
 }
 h1{
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 600;
+  color: #2e2e2e;
+}
+p{
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 0;
 }
 .row{
   margin-top: 5%;
@@ -127,9 +136,9 @@ h1{
 }
 .course-col{
   flex-basis: 31%;
-  background: #e2f4fd;
+  background: cadetblue;
   border-radius: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.5s;
@@ -165,32 +174,18 @@ h1{
 .popular-col p{
   padding: 0;
 }
-.footer{
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-}
-.footer h4{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-
-
-
 
 /*help us*/
 
 .judulhelp{
   text-align: center;
   padding-top: 100px;
-
 } 
 #desk{
   text-align: left;
   position: relative;
   top: 100px;
-  border: 1px solid black;
+  border: 1px solid #000;
   padding-bottom: 10px;
   padding-top: 20px; 
 }
@@ -248,6 +243,7 @@ h1{
 .margg{
   padding-top: 78px;
   padding-left: 450px;
+  background-color: rgba(95, 158, 160, 0.857);
 }
 .marggg{
   position: absolute;
@@ -260,14 +256,13 @@ h1{
 
 }
 .linkkk{
- 
   text-decoration: none;
   color: white;
   border: 1px solid blue;
   padding: 15px 150px;
   font-size: 13px;
   border-radius: 15px;
-  background:blue;
+  background: blue;
   cursor: pointer;
   position: absolute;
   top: 360px;
@@ -292,7 +287,7 @@ h1{
   transition: 0.5s;
 }
 .linkkk:hover{
-  border: 1px solid #271d85;
+  border: 1px solid rgb(47, 130, 133);
   background: transparent;
   transition: 0.5s;
 }
@@ -302,4 +297,179 @@ h1{
   left: 225px;
   color:black
 }
-  
+
+/*pricing*/
+
+section.pricing{
+  padding: 60px 0px;
+  margin: 100px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-light{
+  background-color: #dcf7f4;
+  border-radius: 40px;
+}
+.heading{
+  text-align: center;
+}
+.heading h1{
+  font-size: 35px;
+  color: #2e2e2e;
+}
+.heading p{
+  color: #8f96a0;
+  font-size: 18px;
+}
+.switcher{
+  background-color: #e3fde6;
+  padding: 8px;
+  border-radius: 100px;
+  margin: 42px 0;
+}
+button.btn-on-tab{
+  background-color: cadetblue;
+  color: #fff;
+  padding: 16px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+}
+button.btn-off-tab{
+  background-color: transparent;
+  color: #727272;
+  font-size: 18px;
+  padding: 16px 28px;
+  border: none;
+}
+.row-card-pricing{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+}
+.card-pricing{
+  border: 3px solid #2e2e2e;
+  border-radius: 30px;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.description-pricing{
+  height: 34vh;
+}
+.description-pricing h3{
+  font-size: 24px;
+  color: #2e2e2e;
+}
+.description-pricing h1{
+  font-size: 35px;
+  color: #2e2e2e;
+}
+.description-pricing h1 span{
+  font-size: 20px;
+}
+.feature-list{
+  margin-top: 28px;
+}
+.feature-list p{
+  color: #717f91;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.feature-list p img{
+  margin-right: 8px;
+}
+button.btn-primary{
+  background-color: rgb(47, 130, 133);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.bg-dark{
+  background-color: #2e2e2e!important;
+}
+.card-primary h3, 
+.card-primary h1, 
+.card-primary{
+  color: rgb(47, 130, 133) !important;
+  border-color: rgb(47, 130, 133) !important;
+}
+
+/*comment*/
+
+.coment{
+  display: flex;
+  align-items: center;
+}
+.img-coment{
+  margin-left: 70px;
+}
+.text-coment{
+  padding-left: 0px;
+}
+.text-coment h1{
+  font-size: 35px;
+  text-transform: capitalize;
+  color: cadetblue;
+}
+.text-coment p{
+  color: rgb(17, 17, 17);
+  font-size: 18px;
+  margin-top: 20px;
+  width: 70%;
+  line-height: 32px;
+}
+
+/*Call to action*/
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://www.medcube.health/wp-content/uploads/2020/12/about-us.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 25px;
+}
+
+/*footer*/
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.footer p{
+  color: #2e2e2e;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 0;
+}
+.icon{
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
