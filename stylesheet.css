@@ -99,7 +99,7 @@ nav img{
   padding: 12px 34px;
   font-size: 13px;
   border-radius: 100px;
-  background: transparant;
+  background: transparent;
   position: relative;
   cursor: pointer;
 }
@@ -258,11 +258,11 @@ p{
 .linkkk{
   text-decoration: none;
   color: white;
-  border: 1px solid blue;
+  border: 1px solid rgba(0, 128, 0, 0.694);
   padding: 15px 150px;
   font-size: 13px;
   border-radius: 15px;
-  background: blue;
+  background: green;
   cursor: pointer;
   position: absolute;
   top: 360px;
@@ -271,7 +271,7 @@ p{
 .linkk{
   text-decoration: none;
   color: white;
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0.667);
   padding: 15px 150px;
   font-size: 13px;
   border-radius: 15px;
@@ -291,7 +291,7 @@ p{
   background: transparent;
   transition: 0.5s;
 }
-.linkkkk{
+#linkkkk{
   position: absolute;
   top: 430px;
   left: 225px;

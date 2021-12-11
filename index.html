@@ -7,7 +7,9 @@
   <title>Code Courses</title>
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style></style>
 </head>
+
 <body class="bodyy">
   <section class="header">
     <nav>
@@ -172,7 +174,7 @@
 <!---Call to action-->
 <section class="cta">
   <h1>Enroll For Our Various Online Courses Anywhere From the World</h1>
-  <a href="" class="hero-btn">CONTACT US</a>
+  <a href="" class='hero-btn' >CONTACT US</a>
 </section>
 
 <!---Footer-->
@@ -186,6 +188,16 @@
     <i class="fa fa-twitter"></i>
     <i class="fa fa-linkedin"></i>
 </Section>
+  <script>
+    var get = document.querySelectorAll('.hero-btn')[0];
+    get.addEventListener('mouseover',function(){
+      get.style.backgroundColor = 'blue';
+    });
+    get.addEventListener('mouseout',function(){
+      get.style.backgroundColor = 'transparent';
+    });
+
+  </script>
 </body>
 </html>
 

@@ -8,6 +8,7 @@
   <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="bodyy">
+
   <section class="header2">
     <nav>
       <img src="https://64.media.tumblr.com/18cf613432d18ef047359950de7e20a4/5bdc0939dffd519b-df/s500x750/0bebbeb2f2ae921c8ea24dd827abf58824341f4f.png">
@@ -20,20 +21,39 @@
         </ul>
       </div>
     </nav>
+  
+  <div id="marg">  
+    <div class="margg">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC0d-BDusyNPGtdqkvqlYkbDpVNRRKrfbE7g&usqp=CAU" alt="foto keren" width="900px" height="600px">
+    </div>
+    <div class="marggg">
+      <img src="https://64.media.tumblr.com/18cf613432d18ef047359950de7e20a4/5bdc0939dffd519b-df/s500x750/0bebbeb2f2ae921c8ea24dd827abf58824341f4f.png" width="250px" height="250px">
+      <h4 class="fontsty">&nbsp;&nbsp;&nbsp;&nbsp;Before to use, you can sign in or sign up code course </h4>
+    </div>
+    <div>
+      <a class="linkkk" href="#">SIGN IN</a><br>
+      <h5 id="linkkkk">OR</h5>
+      <a class="linkk" href="#">SIGN UP</a>
+    </div>
+  </div>
+  
+  <script>
+    var sign = document.querySelector('.linkkk');    
+    sign.addEventListener('mouseover',function(){
+      sign.style.backgroundColor = 'rgba(0, 128, 0, 0.694)';
+    });
+    sign.addEventListener('mouseout',function(){
+      sign.style.backgroundColor = 'green';
+    });
 
+    var signout = document.querySelector('.linkk');
+    signout.addEventListener('mouseover',function(){
+      signout.style.backgroundColor = 'rgba(255, 0, 0, 0.667)';
+    });
+    var signout = document.querySelector('.linkk');
+    signout.addEventListener('mouseout',function(){
+      signout.style.backgroundColor = 'red';
+    });
+  </script>
 </body>
-<div id="marg">  
-  <div class="margg">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC0d-BDusyNPGtdqkvqlYkbDpVNRRKrfbE7g&usqp=CAU" alt="foto keren" width="900px" height="600px">
-  </div>
-  <div class="marggg">
-    <img src="https://64.media.tumblr.com/18cf613432d18ef047359950de7e20a4/5bdc0939dffd519b-df/s500x750/0bebbeb2f2ae921c8ea24dd827abf58824341f4f.png" width="250px" height="250px">
-    <h4 class="fontsty">&nbsp;&nbsp;&nbsp;&nbsp;Before to use, you can sign in or sign up code course </h4>
-  </div>
-  <div>
-    <a class="linkkk" href="#">SIGN IN</a><br>
-    <h5 class="linkkkk">OR</h5>
-    <a class="linkk" href="#">SIGN UP</a>
-  </div>
-</div>
 </html>
